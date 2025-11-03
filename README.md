@@ -7,5 +7,3 @@ This repository aggregates experimentally validated datasets of antibacterial na
 - **Multiple learning tasks:** regression targets for MIC and MBC, plus a MIC classification label for categorical performance assessment.
 - **Model-ready format:** curated CSV files (`Nanoparticles_MIC.csv`, `Nanoparticles_MBC.csv`, `Nanoparticles_MIC_with_class.csv`) prepared for supervised learning pipelines.
 
-## Intended Use
-These data support interpretable machine learning workflows that rank influential features, benchmark algorithms such as XGBoost and Random Forest, and guide rational design of potent, selective antibacterial nanomaterials.
