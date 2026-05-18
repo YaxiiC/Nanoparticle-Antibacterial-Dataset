@@ -5,7 +5,7 @@ Machine-learning pipelines to classify minimum inhibitory concentration (MIC) st
 ## Repository layout
 
 ```
-github_upload/
+
 ├── data/                    # Training & enumeration CSVs (see below)
 ├── outputs/                 # Generated figures (gitignored by default)
 ├── paths.py                 # Shared data/output paths
@@ -17,20 +17,11 @@ github_upload/
     └── visualization/       # 3D MIC-class scatter plots
 ```
 
-## Setup
 
-```bash
-cd github_upload
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Place `single_features_with_class.csv` in `data/` if it is not already there (included when built from the local project).
 
 ## Run examples
 
-From the repo root (`github_upload/`):
+From the repo root
 
 ```bash
 # Random forest + SHAP
